@@ -1,0 +1,132 @@
+{
+    "01.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Ag.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "02.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Au.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "03.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Co.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "04.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Cu.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "05.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Fe.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "06.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Ir.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "07.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Mo.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "08.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Ni.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "09.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Pd.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "10.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Pt.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "11.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Ru.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "12.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/Rh.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    },
+    "13.explore_job": {
+        "template_loc": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify",
+        "type_iter01": "CAT.iter01",
+        "type": "CAT",
+        "parameters": {
+            "f_str": "/public1/home/sch0149/work/my_work/11.dpgen_distillation_workflow/01.finetune/01.exploration.repository/CHE_verify/W.xyz",
+            "nstep": 2,
+            "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+        }
+    }
+}

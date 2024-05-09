@@ -1,0 +1,26 @@
+{
+    "f_str": "./blank.xyz",
+    "control": {
+        "cal_tot": false,
+        "restart": false,
+        "save_str_4_model_dev": true,
+        "dir_to_store_str_4_model_dev": "../traj_coll",
+        "relax_between_each_step": false,
+        "nstep": 2
+    },
+    "reference_files": {
+        "f_ZPE": "./CAT_data/ZPE_TS_Eaq/ZPE_TS.json",
+        "f_Eaq": "./CAT_data/ZPE_TS_Eaq/E_aq.json",
+        "f_reaction_template": "./CAT_data/reaction_template/reaction_template.json",
+        "fid_ref_str": "./CAT_data/ref_str"
+    },
+    "reaction_info": {
+        "ocutoff": 7,
+        "icutoff": 4,
+        "catalytic_reaction_name": "ORR",
+        "URHE": "default",
+        "f_dpin": "./graph.000.pb",
+        "max_opt_step": 200,
+        "opt_script": "sub_all_xyz.by_jobname.by_pda.same_node.sh"
+    }
+}

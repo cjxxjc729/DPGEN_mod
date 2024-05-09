@@ -1,0 +1,36 @@
+{
+    "01.exploration": {
+        "template_loc": "../../01.exploration.repository",
+        "type_iter01": "by_GPU",
+        "type": "by_GPU",
+        "parameters": {
+            "sleep_time": 20
+        }
+    },
+    "02.selection": {
+        "template_loc": "../../02.selection.repository",
+        "type_iter01": "selection.by_xyz.iter01",
+        "type": "selection.by_xyz",
+        "parameters": {
+            "N_cif_chosen": 2000,
+            "model_dev_high_bound": 0.4,
+            "model_dev_low_bound": 0.2
+        }
+    },
+    "03.labelling": {
+        "template_loc": "../../03.labelling.repository",
+        "type_iter01": "f.vasp",
+        "type": "f.vasp",
+        "parameters": {
+            "n_core_use": 70
+        }
+    },
+    "04.training": {
+        "template_loc": "../../04.trainning.repository",
+        "type_iter01": "finetune",
+        "type": "finetune",
+        "parameters": {
+            "numb_steps": 50000
+        }
+    }
+}

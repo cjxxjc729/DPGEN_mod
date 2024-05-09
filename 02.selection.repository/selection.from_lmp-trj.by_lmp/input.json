@@ -1,0 +1,7 @@
+{
+    "set_cutoff": 6.5,
+    "N_cif_chosen": 2000,
+    "N_core_use": 30,
+    "model_dev_high_bound": 0.6,
+    "model_dev_low_bound": 0.2
+}
